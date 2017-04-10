@@ -55,7 +55,7 @@ class Header extends Component {
   }
 
   renderNavigation() {
-    if(this.state.windowWidth <= 950) {
+    if(this.state.windowWidth <= 750) {
       return [
         <div key={101} className="mobile_nav">
           <div onClick={this.handleNavClick.bind(this)}><p>Menu</p>

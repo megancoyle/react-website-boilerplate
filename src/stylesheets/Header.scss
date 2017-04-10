@@ -29,3 +29,25 @@ ul.menu-main {
     padding: 0;
     margin: 0;
 }
+
+.menu-button {
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: middle;
+  margin-top: -8px;
+  cursor: pointer;
+  span {
+    display: block;
+    margin-top: 4px;
+    height: 0.125em;
+    background: white;
+    width: 24px;
+  }
+}
+
+.mobile_nav {
+  p {
+    display: inline-block;
+    color: white;
+  }
+}
