@@ -19,7 +19,7 @@ html, body {
     flex-wrap: wrap;
 }
 
-.home > nav {
+nav {
     display: flex;
     background-color: #006699;
     line-height: 4em;
@@ -27,7 +27,7 @@ html, body {
     min-width: 100%;
 }
 
-.home > nav > a {
+nav > a {
     flex-basis: calc(33.33% - 3em);
     flex-grow: 1;
     color: white;
@@ -61,30 +61,6 @@ html, body {
     padding-left: 0.5em;
 }
 
-.member-list {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 90%;
-    align-content: space-around;
-}
-
-.member-list > h1, .member-list > span {
-    min-width: 100%;
-    padding-bottom: 1em;
-}
-
-.member {
-    flex-direction: row;
-    flex-basis: calc(33.33% - 3em);
-    flex-grow: 1;
-}
-
-.member > h1:first-of-type {
-    font-weight: 100;
-    flex-basis: 100%;
-    font-size: 1.5em;
-    text-transform: capitalize;
-}
 
 .about > p {
     font-size: 1.3em;
