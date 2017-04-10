@@ -1,4 +1,4 @@
-import MainMenu from './ui/MainMenu';
+import MainMenu from './ui/Header';
 
 export const Left = ({ children }) =>
   <div classNAme="page">
