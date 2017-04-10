@@ -1,4 +1,5 @@
 import MainMenu from './MainMenu'
+import '../../stylesheets/Home.scss';
 
 const Home = () =>
     <div className="home">

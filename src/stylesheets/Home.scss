@@ -1,0 +1,76 @@
+html, body {
+    font-family: "Architects Daughter", sans-serif;
+    min-width: 100%;
+    margin: 0;
+}
+
+
+.app {
+    position: relative;
+    display: flex;
+}
+
+
+.home {
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    background-color: #006699;
+    line-height: 4em;
+    flex-direction: row;
+    min-width: 100%;
+}
+
+nav > a {
+    flex-basis: calc(33.33% - 3em);
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+#homebox {
+    color: #E1F5F5;
+    text-shadow: 5px -5px #006699;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 4em;
+    display: flex;
+    min-width: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    opacity: 0.9;
+}
+
+.page>nav {
+    display: flex;
+    background-color: #006699;
+    line-height: 4em;
+    flex-direction: column;
+}
+
+.page > nav > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 0.5em;
+}
+
+
+.about > p {
+    font-size: 1.3em;
+}
+
+.page {
+    display: flex;
+    flex-grow: 1;
+}
+
+.page > div {
+    margin: 0.5em;
+}

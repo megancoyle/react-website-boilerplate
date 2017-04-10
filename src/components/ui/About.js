@@ -1,4 +1,5 @@
 import MainMenu from './MainMenu'
+import '../../stylesheets/About.scss';
 
 const About = () => (
    <div className="about">
