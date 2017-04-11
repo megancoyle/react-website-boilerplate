@@ -3,14 +3,14 @@ var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: "public/assets",
+        path: "dist/assets",
         filename: "bundle.min.js",
-        publicPath: "/assets/"
+        publicPath: "dist/assets/"
     },
     devServer: {
         historyApiFallback: true,
         inline: true,
-        contentBase: './public',
+        contentBase: '/',
         port: 3000
     },
     module: {
