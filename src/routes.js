@@ -8,7 +8,7 @@ const routes = (
     <Router history={browserHistory}>
         <Route path="/" component={Home} />
         <Route path="about" component={About} />
-        <Route path="/*" component={Home} />
+        <Route path="*" component={Whoops404} />
     </Router>
 )
 

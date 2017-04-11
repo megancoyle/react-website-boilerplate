@@ -5,11 +5,12 @@ module.exports = {
     output: {
         path: "dist/assets",
         filename: "bundle.min.js",
-        publicPath: "dist/assets/"
+        publicPath: "/assets/"
     },
     devServer: {
         historyApiFallback: true,
         inline: true,
+        contentBase: './dist',
         port: 3000
     },
     module: {
