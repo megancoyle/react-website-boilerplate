@@ -6,9 +6,17 @@
   background-size: cover;
   color: white;
   height: 90vh;
-  font-family: $decorative-text;
   display: flex;
+  width: 100%;
   h1 {
     align-items: center;
+    font-size: 3em;
+    margin: 10px 0 -5px 0;
+    font-family: $decorative-text;
+    line-height: 1.2;
   }
+}
+
+hr {
+  border-color: white;
 }

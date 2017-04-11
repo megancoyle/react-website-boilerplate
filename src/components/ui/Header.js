@@ -55,7 +55,7 @@ class Header extends Component {
   }
 
   renderNavigation() {
-    if(this.state.windowWidth <= 750) {
+    if(this.state.windowWidth <= 650) {
       return [
         <div key={101} className="mobile_nav">
           <div onClick={this.handleNavClick.bind(this)}><p>Menu</p>
@@ -84,7 +84,7 @@ class Header extends Component {
           <div id="logo">
             <a href="/"><h1>travelr</h1></a>
           </div>
-          <div className="menu colors">
+          <div className="menu">
           {this.renderNavigation()}
           </div>
         </div>
