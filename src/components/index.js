@@ -1,5 +1,5 @@
 import React from 'react';
-import MainMenu from './ui/Header';
+import Header from './ui/Header';
 
 export const Left = ({ children }) =>
   <div className="page">
@@ -15,6 +15,7 @@ export const Right = ({ children }) =>
 
 export const Whoops404 = ({ location }) =>
     <div>
+      <Header />
         <h1>Whoops, resource not found</h1>
         <p>Could not find {location.pathname}</p>
     </div>
