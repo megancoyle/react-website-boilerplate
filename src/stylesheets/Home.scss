@@ -5,6 +5,10 @@
   background-image: url("../images/building.jpg");
   background-size: cover;
   color: white;
-  padding-top: 20px;
-  height: 80vh;
+  height: 90vh;
+  font-family: $decorative-text;
+  display: flex;
+  h1 {
+    align-items: center;
+  }
 }
