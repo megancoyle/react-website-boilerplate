@@ -1,1 +1,10 @@
 @import "base";
+
+.banner {
+  text-align: center;
+  background-image: url("../images/building.jpg");
+  background-size: cover;
+  color: white;
+  padding-top: 20px;
+  height: 80vh;
+}

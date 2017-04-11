@@ -6,7 +6,7 @@ const Home = () =>
     <div>
         <Header className="menu container"/>
         <div className="banner">
-            <h1>Website Template</h1>
+            <div className="container"><h1>Website Template</h1></div>
         </div>
     </div>
 

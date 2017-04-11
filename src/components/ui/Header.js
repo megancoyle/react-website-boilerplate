@@ -27,13 +27,13 @@ class Header extends Component {
     return [
       <ul onClick={this.handleNavClick.bind(this)} key={11} className="menu-main">
         <li key={21}>
-          <Link to="/">
-            Home
+          <Link to="about">
+            About
           </Link>
         </li>
         <li key={22}>
-          <Link to="about">
-            About
+          <Link to="Services">
+            Services
           </Link>
         </li>
       </ul>
@@ -82,7 +82,7 @@ class Header extends Component {
       <header className="clearfix">
         <div className="container">
           <div id="logo">
-
+            <a href="/"><h1>travelr</h1></a>
           </div>
           <div className="menu colors">
           {this.renderNavigation()}
