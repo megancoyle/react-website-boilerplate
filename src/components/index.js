@@ -2,7 +2,7 @@ import React from 'react';
 import MainMenu from './ui/Header';
 
 export const Left = ({ children }) =>
-  <div classNAme="page">
+  <div className="page">
     <MainMenu className="main-menu" />
     {children}
   </div>
