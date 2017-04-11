@@ -1,2 +1,4 @@
 /node_modules/
 /dist/assets/bundle.min.js
+npm-debug.log*
+.DS_Store
