@@ -1,5 +1,6 @@
 import React, { Component}  from 'react';
-import Header from '../ui/Header'
+import Header from '../ui/Header';
+import Footer from '../ui/Footer';
 import '../../stylesheets/Home.scss';
 
 const Home = () =>
@@ -12,6 +13,7 @@ const Home = () =>
               <p>made for you in React JS</p>
             </div>
         </div>
+        <Footer />
     </div>
 
 export default Home;
