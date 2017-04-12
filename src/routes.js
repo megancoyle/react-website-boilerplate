@@ -6,7 +6,7 @@ import Services from './components/pages/Services';
 import  { Left, Right, Whoops404  } from './components';
 
 const routes = (
-    <Router history={browserHistory}>
+    <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
         <Route path="/" component={Home} />
         <Route path="services" component={Services} />
         <Route path="about" component={About} />
