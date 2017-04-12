@@ -6,3 +6,10 @@ A React JS website boilerplate. Includes a basic layout template that can be use
 * React Router
 * Webpack
 * SASS
+
+## Installation
+Run:
+```
+npm install
+npm run
+```
