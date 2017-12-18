@@ -7,6 +7,7 @@ module.exports = {
         filename: "bundle.min.js",
         publicPath: "/assets/"
     },
+    devtool: "cheap-eval-source-map",
     devServer: {
         historyApiFallback: true,
         inline: true,

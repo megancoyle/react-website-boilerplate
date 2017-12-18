@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import '../../stylesheets/Header.scss';
 
 class Header extends Component {
@@ -82,7 +82,7 @@ class Header extends Component {
       <header className="clearfix">
         <div className="container">
           <div id="logo">
-            <a href="/"><h1>travelr</h1></a>
+            <Link to="/"><h1>travelr</h1></Link>
           </div>
           <div className="menu">
           {this.renderNavigation()}
